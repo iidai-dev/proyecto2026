@@ -1,5 +1,5 @@
 // CARGAR NAVBAR
-fetch("../../../../navbar.html")
+fetch("/proyecto2026/navbar.html")
   .then(res => res.text())
   .then(data => {
     document.getElementById("navbar").innerHTML = data;
