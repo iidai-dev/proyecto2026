@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>IIDAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+
+<div id="navbar"></div>
+<div class="overlay-menu"></div>
+
+
+<script src="script.js"></script>
+<script id="nav-scroll">
+window.addEventListener("scroll", function () {
+    const nav = document.querySelector("nav");
+
+    if (window.scrollY > 50) {
+        nav.classList.add("scrolled");
+    } else {
+        nav.classList.remove("scrolled");
+    }
+});
+</script>
+
+<header class="banner">
+
+    <div class="overlay">
+
+        <div class="logos">
+                <img src="img/logo-uns20.png" class="logo1">
+                <img src="img/logo_infor.png" class="logo2">
+                <img src="img/logo-iidai.png" class="logo3">
+        </div>
+
+        <div class="texto">
+            <h1>UNIVERSIDAD NACIONAL "SIGLO XX"</h1>
+            <h2>INGENIERÍA INFORMÁTICA</h2>
+            <h3>INSTITUTO DE INVESTIGACIÓN IIDAI</h3>
+        </div>
+
+    </div>
+
+    <div class="robot-container">
+        <model-viewer 
+            src="robot.glb"
+            autoplay
+            camera-controls
+            class="robot">
+        </model-viewer>
+    </div>
+
+</header>
+
+<section class="contenido">
+
+    <!-- PÁRRAFO -->
+    <div class="card">
+        <p>El Instituto de Investigación y Desarrollo de Aplicaciones Informáticas (IIDAI), pertenece a la carrera de Ingeniería Informática de la Universidad Nacional "Siglo XX", y se constituye en un centro de investigación Científica y Tecnológica  en el área de la Informática que apoya los procesos de formación investigativa de la carrera buscando contribuir a la sociedad y desarrollar proyectos I+D e I+D+i.
+        </p>
+            <p style="margin-top:20px;"><br>Objetivo: Desarrollo de investigación científica y su publicación Científica</p>
+            <p style="margin-top:20px;"><br>Entre las principales actividades que realiza están:
+
+</p>
+    <ul>
+  <li>Contribuir a la Publicacíon Cientifica en el área de Informática</li>
+  <li>Contribuir al desarrollo de la Investigación Científica en el área de Informática</li>
+  <li>Contribuir al desarrollo de Aplicaciones Informáticas</li>
+  <li>Participación en eventos Nacionales e Internacionales de Ciencia y Tecnología Informática</li>
+  <li >Desarrollo Eventos Académicos en  Informática</li>
+</ul>
+
+
+    </div>
+    <p>&nbsp;</p>
+
+    <!-- IMAGEN -->
+    <div class="imagen">
+        <img src="img/edificio-idai.jpg" style="margin-bottom:100px;">
+        
+    </div>
+
+
+
+    <h2 style="text-align: center;">ESTRUCTURA INVESTIGATIVA</h2>
+    <!-- IMAGEN -->
+    <div class="imagen">
+        <img src="img/mapaconcep.png" style="margin-bottom:100px;">
+    </div>
+
+    <!-- 4 PÁRRAFOS -->
+     <h2 style="text-align:center;">LINEAS DE INVESTIGACIÓN</h2>
+
+    <div class="card"><p>
+        <ul style="margin-bottom:25px;">
+            <li>SEGURIDAD INFORMÁTICA (7)</li>
+            <li>REALIDAD VIRTUAL, AUMENTADA, EXTENDIDA Y VIDEOJUEGOS(6)</li>
+            <li>SOFTWARE LIBRE Y DESARROLLO DE SOFTWARE(6)</li>
+            <li>ROBOTICA, IOT Y SISTEMAS EMBEBIDOS (5)</li>
+            <li>INTELIGENCIA ARTIFICIAL  Y CIENCIA DE DATOS (4)</li>
+            <li>VISION ARTIFICIAL  E INTERACCION HUMANO COMPUTADOR (4)</li>
+            <li>WEB 3D(2)</li>
+            <li>ALGORÍTMICA Y PROGRAMACION (1)</li>
+        </ul>
+    </p></div>
+    <p>&nbsp;</p>
+
+    <h2 style="text-align: center;">PRINCIPALES POLÍTICAS DE INVESTIGACIÓN</h2>
+    <div class="card"><p>
+        <ul>
+            <li>Publicación Científica</li>
+            <li>Desarrollo de Proyectos de Investigación</li>
+            <li>Desarrollo de Aplicaciones Informáticas</li>
+            <li>Participación en eventos Nacionales e Internacionales</li>
+            <li>Desarrollo de eventos propios </li>
+            <li>Conformacíon de Grupos de Investigación</li>
+        </ul>
+    </p></div>
+    <p>&nbsp;</p>
+    <h2 style="text-align: center;">RECURSOS HUMANOS</h2>
+    <div class="card"><p>
+        <ul>
+            <li>Docentes con Doctorado en la especialidad</li>
+            <li>Docentes con Maestría en la especialidad</li>
+            <li>Estudiantes Destacados como Becarios</li>
+            <li>Estudiantes Destacados en Grupos de Investigación</li>
+            
+        </ul>
+    </p></div>
+    <p>&nbsp;</p>
+    <h2 style="text-align: center;">RECONOCIMIENTOS</h2>
+    <div class="card"><p>
+        <ul>
+            <li>Juntex 2023  -  3° Lugar El Alto </li>
+            <li>Tu App 2021  -  3° Lugar Mexico  </li>
+            <li>BOL 2018 -  2° Lugar </li>
+        </ul>
+    </p></div>
+    <p>&nbsp;</p>
+
+    <!-- IMAGEN -->
+    <div class="imagen">
+        <img src="img/ft.png" style="margin-bottom:100px">
+    </div>
+
+    <!-- PÁRRAFO -->
+     <h2 style="text-align: center;">UBICACIÓN</h2>
+    <div class="card">
+        <p style="text-align:center;">
+            Oficina Central: Llallagua calle Oruro s/n edificio de Ciencia y Tecnología, primer piso Oficina Nº 1
+            <br>Oficina Campus Universitario María Barzola:  Edificio Administrativo  “Bloque A” Ingeniería Informática, Oficina Nº 3
+            <br>Email: iidai.informatica.unsxx@gmail.com  
+            <br>Teléfono: (+591) - 75418754
+            <br>Llallagua - Potosi - Bolivia
+        </p>
+    </div>
+    <div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d578.3181599124173!2d-66.58305218660522!3d-18.420584766104998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93fcdfd815aa6a69%3A0xcd1f138c42533e55!2sEdificio%20De%20Investigaci%C3%B3n%20UNSXX!5e0!3m2!1ses-419!2sbo!4v1775262704573!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+    <div class="imagen">
+        <img src="../../../../img/marca-agua.png" style="width:300px; border-radius:10px;">
+    </div>
+
+</section>
+
+
+</body>
+</html>
